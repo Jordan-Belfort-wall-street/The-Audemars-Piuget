@@ -1,0 +1,431 @@
+
+/* >>>>>>>>>>>>>>>>>>>FOOTER SECTION<<<<<<<<<<<<<<<<< */
+
+#footer1 {
+    background-color: rgb(17, 16, 16);
+    padding: 50px 120px;
+    position: relative;
+    font-family: helvetica;
+    height: 300px;
+}
+
+/* >>>>>>>>>>>>>>>>>>>FOOTER NAV BAR<<<<<<<<<<<<<<<<< */
+
+#footer1 .navLinks ul {
+    display: flex;
+}
+
+#footer1 .navLinks ul li{
+    list-style: none;
+}
+
+#footer1 .navLinks ul li a {
+    color: #7b8282;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-right: 1px solid #7b8282;
+    padding: 0px 10px;
+    font-size: 12px;
+    transition: .5s ease;
+    font-weight: 700;
+}
+
+#footer1 .navLinks ul li a:hover {
+    color: rgb(202, 197, 197)
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+#footer1 .p1 a {
+    color: #7b8282;
+    text-decoration: none;
+    transition: .4s ease;
+}
+
+#footer1 .p1 {
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+#footer1 .p1 a:hover {
+    color: rgb(202, 197, 197);
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+#footer1 .box {
+    color: #988057;
+    position: absolute;
+    right: 5%;
+    display: flex;
+    text-transform: uppercase;
+    top: 29%;
+    font-weight: 700;
+    font-family: cursive;
+}
+
+#footer1 .box .box1 {
+    margin-right: 20px;
+    border: 1px solid #988057;
+    padding: 10px 20px;
+    font-size: 12px;
+}
+
+#footer1 .box .box1:hover {
+    background-color: #988057;
+    color: white;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+#footer1 .social {
+    position: absolute;
+    top: 70%;
+}
+
+#footer1 .social ul {
+    display: flex;
+}
+
+#footer1 .social ul li {
+    list-style: none;
+    color: #7b8282;
+    font-size: 12px;
+}
+
+#footer1 .social ul li a {
+    text-decoration: none;
+    color: #7b8282;
+    padding: 0px 7px;
+    border-right: 1px solid #7b8282;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+#footer1 .socialMedia {
+    color: #7b8282;
+    position: absolute;
+    top: 68%;
+    right: 8%;
+    font-size: 25px;
+    padding-right: 20px; 
+}
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+#footer1 .wrapper {
+    border-top: 1px solid #2b2c2c;
+    margin-top: 60px;
+}
+
+
+.footer2 {
+    display: none;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+@media (max-width: 1160px) {
+    #footer1 .socialMedia {
+        color: #7b8282;
+        position: absolute;
+        top: 80%;
+        left: 11%;
+        font-size: 25px;
+        padding-right: 20px; 
+    }
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+@media (max-width: 1050px) {
+    #footer1 {
+        display: none;
+    }
+
+    .footer2 {
+        display: block;
+        background-color: rgb(17, 16, 16);
+        position: relative;
+        height: 440px;
+
+    }
+
+    .footer2 .fbox { 
+        color: #988057;
+        display: flex;
+        padding: 40px 20px;
+        justify-content: center;
+        font-size: 17px;
+        font-family: cursive;
+    }
+
+    .footer2 .fbox a {
+        color: #988057;
+        text-decoration: none;
+    }
+
+    .footer2 .fbox1 {
+        padding: 10px 170px;
+        border: 1px solid #988057;
+        margin-right: 20px;
+        transition: .5s ease;
+        width: max-content;
+    }
+
+    .footer2 .fbox1:hover {
+        background-color: #988057;
+        color: white;
+    }
+
+    .footer2 .fnavLinks {
+        position: absolute;
+        top: 30%;
+        left: -1%;
+        }
+
+
+    .div1 {
+        list-style: none;
+        display: flex;
+        flex-wrap: nowrap;
+        
+    }
+
+    .div2 {
+        list-style: none;
+        display: flex;
+        color: white;
+        }
+
+    .footer2 .fnavLinks a {
+        color: white;
+        text-decoration: none;
+        padding: 0px 60px;
+        font-size: 12px;
+        text-transform: uppercase;
+        line-height: 50px;
+        color: #7b8282;
+        font-family: helvetica;
+        font-weight: 700;
+    }
+
+    .footer2 .fnavLinks a:hover {
+        color: rgb(202, 197, 197);
+    }
+
+    .footer2 .fnavLinks .fp1 {
+        margin-left: 60px;
+        width: max-content;
+    }
+    .fwrapper > p {
+        color: #7b8282;
+        font-size: 12px;
+        font-family: helvetica;
+        letter-spacing: 1.345px;
+        margin-left: 60px;
+    }
+    .fwrapper .fsocial ul{
+        display: flex;
+        margin-left: 60px;
+        list-style: none;
+    }
+
+    .fwrapper .fsocial ul li a {
+        padding: 0px 10px;
+        margin-top: 40px;
+        border-right: 1px solid #7b8282;
+        font-size: 10px;
+    }
+
+    .fsocial img {
+        margin-top: 10px;
+    }
+
+    .footer2 .socialMedia {
+        color: #7b8282;
+        position: absolute;
+        top: 85%;
+        right: -30%;
+        font-size: 23px;
+        padding-right: 20px; 
+    }
+
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+@media (max-width:930px) {
+    
+    .footer2 {
+        height: 500px;
+    }
+    .footer2 .fbox {
+        padding: 40px 60px;
+        font-size: 14px;
+    }
+
+    .footer2 .fbox1 {
+        padding: 10px 120px;
+        border: 1px solid #988057;
+        margin-right: 20px;
+        transition: .5s ease;
+        width: max-content;
+    }
+    .footer2 .fnavLinks {
+        position: absolute;
+        top: 20%;
+        left: 12%;
+        }
+
+    .div2 {
+        list-style: none;
+        display: flex;
+        color: white;
+        flex-wrap: wrap;
+        }
+
+    .footer2 .fnavLinks a {
+        color: #7b8282;
+        text-decoration: none;
+        padding: 0px 20px;
+        font-size: 12px;
+        text-transform: uppercase;
+        line-height: 50px;
+    }
+
+    .footer2 .fnavLinks .fp1 {
+        margin-left: 20px;
+    }
+
+    .fwrapper > p {
+        margin-left: 20px;
+    }
+
+    .fwrapper .fsocial ul{
+        margin-left: 20px;
+    }
+
+    .footer2 .socialMedia {
+        top: 100%;
+        left: 4%;
+    }
+
+
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+@media (max-width: 770px) {
+    
+    .footer2 {
+        height: 600px;
+    }
+
+    .footer2 .fbox {
+        color: #988057;
+        display: flex;
+        padding: 40px 20px;
+        justify-content: center;
+        font-size: 15px;
+        flex-wrap: wrap;
+    }
+
+    .footer2 .fbox a {
+        color: #988057;
+        text-decoration: none;
+    }
+
+    .footer2 .fbox1 {
+        padding: 10px 180px;
+        border: 1px solid #988057;
+        margin-right: 20px;
+        transition: .5s ease;
+        width: max-content;
+        margin-top: 10px;
+        flex-wrap: wrap;
+    }
+
+    .footer2 .fnavLinks {
+        position: absolute;
+        top: 30%;
+        left: 10%;
+        }
+
+    .div1 {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;  
+    }
+
+    .div2 {
+        list-style: none;
+        display: flex;
+        color: white;
+        flex-wrap: wrap;
+    }
+
+    .footer2 .fnavLinks a {
+        color: #7b8282;
+        text-decoration: none;
+        padding: 0px 20px;
+        font-size: 12px;
+        text-transform: uppercase;
+        line-height: 50px;
+    }
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+@media (max-width: 570px) {
+
+    .footer2 {
+        height: 510px;
+    }
+
+    .footer2 .fbox1 {
+        padding: 10px 160px;
+        border: 1px solid #988057;
+        margin-right: 20px;
+        transition: .5s ease;
+        width: max-content;
+        margin-top: 10px;
+        flex-wrap: wrap;
+    }
+
+    .footer2 .fnavLinks {
+        position: absolute;
+        top: 35%;
+        }
+
+    .footer2 .fp1 {
+        margin-top: -25px;
+        margin-left: 20px;
+    }
+
+    .fwrapper > p {
+        margin-left: 100px;
+    }
+
+    .fwrapper .fsocial ul{
+        margin-left: -10px;
+        font-size: 8px;
+    }
+
+    .footer2 .socialMedia {
+        top: 100%;
+        left: 25%;
+    }
+
+    .fwrapper .fsocial ul{
+        margin-left: 0px;
+    }
+
+    .fwrapper .fsocial ul li a {
+        padding: 0px 5px;
+        font-size: 9px;
+    }
+
+}

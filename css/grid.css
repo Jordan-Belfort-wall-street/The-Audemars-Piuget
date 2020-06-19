@@ -1,0 +1,190 @@
+/* >>>>>>>>>>>>>>>>>>>GRID SECTION<<<<<<<<<<<<<<<<<<<<<*/
+.grid1{
+    padding: 120px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 
+    "item-a item-b item-c"
+    "item-d item-e item-f";
+    grid-gap: 25px;
+    font-family: helvetica;
+    position: relative;
+}
+.grid1 .p1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+.grid1 .p2 {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    line-height: 40px;
+    text-align: right;
+    margin-left: 60px;
+    position: relative;
+
+} 
+
+.grid1 .new {
+    margin-left: 0px;
+}
+
+.browse {
+    position: absolute;
+    right: 6%;
+    bottom: 7%;
+    font-family: cursive;
+}
+
+.browse a {
+    color: #988057;
+    text-decoration: none;
+    transition: .4s ease;
+}
+
+.browse a:hover {
+    color: #ddd;
+}
+
+.browse i {
+    font-size: 10px; 
+    position: absolute; 
+    bottom:18%; 
+    right: -11%;
+    transition: .2s ease;
+}
+.browse a:hover i {
+    color: #988057;
+    transform: translate(70%)
+}
+
+.grid1 .p1 .para1 {
+    font-size: 40px; 
+    font-family: roboto;
+}
+
+.grid1 .p1 .para2 {
+    margin-top: 20px; 
+    line-height: 35px; 
+    font-size: 18px;
+} 
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+@media (max-width: 1050px) {
+
+    .grid1 .p1 .para1 {
+        font-size: 37px; 
+        font-family: roboto;
+    }
+    
+    .grid1 .p1 .para2 {
+        margin-top: 10px; 
+        line-height: 30px; 
+        font-size: 18px;
+    } 
+
+    .grid1 .p2 {
+        font-size: 18px;
+        line-height: 30px;
+        text-align: right;
+        margin-left: 60px;
+    } 
+}
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+@media (max-width: 1000px) {
+    .grid1 .p1 .para1 {
+        font-size: 25px; 
+        font-family: roboto;
+        margin-left: -5px;
+    }
+    
+    .grid1 .p1 .para2 {
+        margin-top: 10px; 
+        line-height: 30px; 
+        font-size: 14px;
+    } 
+
+    .grid1 .p2 {
+        font-size: 14px;
+    } 
+}
+
+.flex {
+    display: none;
+}
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+@media (max-width: 870px) {
+    .grid1 {
+        display: none;
+    }
+
+    .flex {
+        display: block;
+        margin-top: 100px;
+        padding: 30px;
+        font-family: helvetica;
+    }
+
+    .flex p {
+        color: white;
+        
+    }
+
+    .flexImg {
+        display: flex;
+        overflow: auto;
+        padding: 20px 0px;
+    }
+    .flexImg img {
+        padding-right: 30px;
+    }
+
+    .flex .quote {
+        margin-top: 30px;
+        margin-left: 30px;
+        text-align: right;
+        line-height: 30px;
+        font-style: italic;
+    }
+
+    .flex .flexImg .browser {
+        color: white;
+        padding: 60px;
+        width: max-content;
+        background-color: rgb(17, 16, 16);
+    }
+
+    .flex .flexImg .browser p {
+        font-size: 20px;
+        text-transform: uppercase;
+        margin-top: -20px;
+    }
+
+    .flexImg .fas {
+        color: #988057;
+        font-size: 14px;
+        border-radius: 50%;
+        padding: 10px 12px;
+        border: 2px solid #988057;
+        transition: .4s ease;
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+
+    .flexImg .fas:hover {
+        border-color: #fff;
+    }
+}
